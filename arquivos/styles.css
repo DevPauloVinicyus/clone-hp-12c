@@ -18,7 +18,7 @@ body {
 
 h1 {
   font-family: 'Bungee Tint', sans-serif;
-  font-size: 50px;
+  font-size: 80px;
   line-height: 150%;
   text-align: center;
   font-weight: 800;
@@ -226,3 +226,104 @@ h1 {
   padding: 0;
 }
 }
+
+/*INICIO RODAPE*/
+
+/* ==============================
+   FOOTER – INOVARE WEB DESIGN
+   ============================== */
+
+.footer-area {
+  width: 100%;
+  background: #000;
+  padding: 30px 0 25px;
+}
+
+/* Texto do copyright */
+.footer-copyright {
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-copyright p {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+/* Link INOVARE */
+.footer-copyright a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 6px;
+  transition: color 0.3s ease;
+}
+
+.footer-copyright a:hover {
+  color: rgb(115, 0, 247);
+}
+
+/* ==============================
+   ÍCONES SOCIAIS
+   ============================== */
+
+.footer-social {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+/* Link dos ícones */
+.footer-social-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Ícones Font Awesome */
+.footer-social-link i {
+  font-size: 28px;
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+/* Hover elegante */
+.footer-social-link:hover i {
+  color: rgb(115, 0, 247);
+  transform: translateY(-4px);
+}
+
+/* ==============================
+   RESPONSIVO
+   ============================== */
+
+@media (max-width: 768px) {
+  .footer-copyright p {
+    font-size: 17px;
+  }
+
+  .footer-social {
+    gap: 22px;
+  }
+
+  .footer-social-link i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-copyright p {
+    font-size: 15px;
+  }
+
+  .footer-social {
+    gap: 18px;
+  }
+}
+
+
+/*FIM RODAPE*/
